@@ -1,0 +1,26 @@
+* {
+    /* Este es un selector universal */
+}
+
+h1 span {
+    /* Este va aplicar el estilo las etiquetas span que estén dentro de una etiqueta h1. No importa si es el primer descendiente o tiene más en el medio */
+}
+
+
+.NombreClase {
+    /* Este va aplicar el estilo a una clase particular */
+}
+
+p.NombreClase {
+    /* Este va a aplicar el estilo a la clase NombreClase que esté en una etiqueta p */
+}
+
+p .NombreClase {
+    /* Este va a aplicar el estilo a cualquier etiqueta que tenga la clase NombreClase y esté dentro de una eiqueta p */
+}
+
+p, .NombreClase {
+    /* Este va a aplicar el estilo a todas las etiquetas p y a todas las etiquetas que tengan la clase NombreClase */
+}
+
+/* En las etiquetas html se pueden aplicar varios estilos a una misma etiqueta, por ejemplo: class="NombreClase NombreClase1 NombreClase2" */
